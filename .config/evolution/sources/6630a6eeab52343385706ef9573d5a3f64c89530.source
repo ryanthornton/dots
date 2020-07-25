@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=rpthornton@berkeley.edu
+Enabled=true
+Parent=5be32617d26778c2744d697c020bb3b1c0f85d6e
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp.gmail.com
+Method=XOAUTH2
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=rpthornton@berkeley.edu
+CredentialName=
+
+[Security]
+Method=ssl-on-alternate-port

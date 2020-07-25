@@ -1,0 +1,53 @@
+[Data Source]
+DisplayName=rpthornton@outlook.com
+Enabled=true
+Parent=7b7307d78fcac5b307fc504b5e31ad72cd32c467
+
+[Offline]
+StaySynchronized=false
+
+[Authentication]
+Host=imap-mail.outlook.com
+Method=XOAUTH2
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=rpthornton@outlook.com
+CredentialName=
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=ab89165f8ee066a40e95895060a68dad72fa7f44
+ArchiveFolder=
+NeedsInitialSetup=true
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+LimitByAge=false
+LimitUnit=years
+LimitValue=1
+UseMultiFetch=false
+CheckAll=false
+CheckSubscribed=false
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=
+RealTrashPath=
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=false
+UseNamespace=false
+UseQresync=false
+UseRealJunkPath=false
+UseRealTrashPath=false
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false

@@ -1,0 +1,28 @@
+[Data Source]
+DisplayName=rpthornton@outlook.com
+Enabled=true
+Parent=7b7307d78fcac5b307fc504b5e31ad72cd32c467
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=rpthornton@outlook.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=c5b86f9bf32e3dc016ca48c5829a2558c905c4d0
+RepliesToOriginFolder=false
+UseSentFolder=true

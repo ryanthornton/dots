@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=rpthornton@outlook.com
+Enabled=true
+Parent=7b7307d78fcac5b307fc504b5e31ad72cd32c467
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp-mail.outlook.com
+Method=XOAUTH2
+Port=587
+ProxyUid=system-proxy
+RememberPassword=true
+User=rpthornton@outlook.com
+CredentialName=
+
+[Security]
+Method=starttls-on-standard-port

@@ -1,0 +1,28 @@
+[Data Source]
+DisplayName=rpthornton@berkeley.edu
+Enabled=true
+Parent=5be32617d26778c2744d697c020bb3b1c0f85d6e
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=rpthornton@berkeley.edu
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=6630a6eeab52343385706ef9573d5a3f64c89530
+RepliesToOriginFolder=false
+UseSentFolder=true
